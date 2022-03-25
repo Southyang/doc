@@ -26,5 +26,5 @@ module.exports = [
 	  ]
 	},
 	{ text: '我的博客', link: 'https://southyang.cn/' },
-    { text: 'GitHub', link: 'https://github.com/wangli66/vuepress-simple-demo' }
+    { text: 'GitHub', link: 'https://github.com/Southyang/doc' }
 ]
