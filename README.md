@@ -2,7 +2,7 @@
 
 说明：这是一个使用vuepress搭建的个人文档库
 
-文档库地址：[demo 地址]()
+文档库地址：[ 地址](https://doc.southyang.cn/)
 
 使用：可以用 npm 或 yarn
 

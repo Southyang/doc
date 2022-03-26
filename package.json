@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@babel/runtime": "^7.15.4",
+    "@vuepress/plugin-pwa": "^1.9.7",
     "vuepress-theme-vdoing": "^1.8.3"
   }
 }
