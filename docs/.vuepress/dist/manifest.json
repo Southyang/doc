@@ -3,7 +3,7 @@
     "short_name": "文档库",
     "display": "standalone",
     "background_color": "#fff",
-    "start_url": "\",
+    "start_url": "/",
     "scope": ".",
     "description": "Southyang的文档库",
     "icons": [

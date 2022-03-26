@@ -4,7 +4,7 @@ module.exports = [
     ['meta', { name: 'theme-color', content: '#538ec5' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icons/logo.png' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icons/logo.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/logo.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/logo.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
 ]
