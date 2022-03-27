@@ -3,7 +3,7 @@ title: vue
 date: 2022-03-25 16:38:18
 permalink: /pages/1e5f88/
 ---
-### bug1
+### bug1 : 安装好npm后，每次都需要管理员下的cmd才可以执行指令
 
 - **情况：** 安装好npm后，每次都需要管理员下的cmd才可以执行指令
 - **报错：** npm ERR! Cannot call write after a stream was destroyed
@@ -12,7 +12,7 @@ permalink: /pages/1e5f88/
 
 
 
-### bug2
+### bug2 : 打开vscode后，在顶部显示vscode不受支持
 
 - **情况：** 打开vscode后，在顶部显示vscode不受支持
 - **原因：** 在更换背景或其他情况下安装的插件修改了vscode的核心文件
@@ -24,7 +24,7 @@ permalink: /pages/1e5f88/
 
 
 
-### bug3
+### bug3 : 调用hasOwnProperty函数检查有无属性
 
 - **情况：** 调用hasOwnProperty函数检查有无属性
 - **报错：**`Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins`
@@ -33,7 +33,7 @@ permalink: /pages/1e5f88/
 
 
 
-### bug4
+### bug4 : 调用bootstrap.css作为样式
 
 - **情况：** 调用bootstrap.css作为样式
 

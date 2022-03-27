@@ -36,7 +36,7 @@ module.exports = {
     ],
 	'/coursedoc/多媒体/': [
         '/coursedoc/多媒体/', '/coursedoc/多媒体/第一章 绪论', '/coursedoc/多媒体/第二章 编程环境与平台', 
-		'/coursedoc/多媒体/第三章 数字音频基础',
+		'/coursedoc/多媒体/第三章 数字音频基础', '/coursedoc/多媒体/第五章 无损数据压缩算法',
 	],
     '/': ['/', '/introduction'],
 }

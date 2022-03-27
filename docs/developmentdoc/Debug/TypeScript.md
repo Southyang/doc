@@ -3,7 +3,7 @@ title: TypeScript
 date: 2022-03-25 16:38:18
 permalink: /pages/56c835/
 ---
-### TS在使用webpack打包时遇到的问题： 
+### TS在使用webpack打包时遇到的问题 : WARNING in configuration……
 ```
 WARNING in configuration
 The 'mode' option has not been set, webpack will fallback to 'uction' for this value. Set 'mode' option to 'development' or duction' to enable defaults for each environment.

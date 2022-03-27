@@ -2,6 +2,7 @@ const head = require("./config/head.js");
 const plugins = require("./config/plugins.js");
 const nav = require("./config/nav.js");
 const sidebar = require("./config/sidebar.js");
+const markdown = require("./config/markdown.js");
 
 module.exports = {
 	head,
@@ -26,4 +27,5 @@ module.exports = {
         nav,
         sidebar,
     },
+	markdown,
 };

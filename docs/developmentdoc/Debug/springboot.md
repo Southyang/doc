@@ -5,7 +5,7 @@ permalink: /pages/be7c65/
 ---
 
 
-### bug1
+### bug1 : Error resolving template [home]……
 
 - **报错：**`Error resolving template [home], template might not exist or might not be accessible by any of the ……`
 
@@ -35,9 +35,7 @@ permalink: /pages/be7c65/
 
   
 
-### bug2
-
-
+### bug2 : Error starting ApplicationContext ……
 
 - **报错：** 
 
@@ -46,8 +44,6 @@ permalink: /pages/be7c65/
   Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
   Reason: Failed to determine a suitable driver class
   ```
-
-  
 
 - **原因：** DataSourceAutoConfiguration.class会默认帮我们配置单数据源，而创建的项目中没有数据源，就会报错
 
