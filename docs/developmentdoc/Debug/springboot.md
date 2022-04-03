@@ -49,4 +49,12 @@ permalink: /pages/be7c65/
 
 - **解决办法：** 我使用了多数据源，通过 @SpringBootApplication(exclude={DataSourceAutoConfiguration.calss}) 注解，排除自动注入数据源的配置（取消数据库配置），在我们需要用到数据库的时候自己配置即可	
 
-  
+
+
+### bug3 ：Unknown column 'name' in 'field list'……
+- **报错：**
+```
+Error updating database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'name' in 'field list'
+```
+- **原因：** 产生这个报错的原因很多，最常见的就是字段和数据库的列名不匹配。如果在使用insert语句时报错，并且发现'name'是输入内容而不是想要的列名，检查一下是不是 table(name) values(#{value1}) 的table和(name)中间有空格
+- **解决办法：** 修改字段使得字段和数据表中的列名匹配；或者把sql语句写对
