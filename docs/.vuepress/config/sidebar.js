@@ -15,6 +15,12 @@ module.exports = {
 		'/learningdoc/Vue/vue3',
 		'/learningdoc/Vue/用Vite搭建vue3项目',
     ],
+	'/learningdoc/Algorithm/': [
+        '/learningdoc/Algorithm/', 
+		'/learningdoc/Algorithm/STL总结',
+		'/learningdoc/Algorithm/算法模板总结',
+		'/learningdoc/Algorithm/Array', 
+    ],
 	'/developmentdoc/Configure/': [
         '/developmentdoc/Configure/', 
 		'/developmentdoc/Configure/Apache', 
@@ -38,7 +44,8 @@ module.exports = {
 	'/coursedoc/多媒体/': [
         '/coursedoc/多媒体/', '/coursedoc/多媒体/第一章 绪论', '/coursedoc/多媒体/第二章 编程环境与平台', 
 		'/coursedoc/多媒体/第三章 数字音频基础', '/coursedoc/多媒体/第五章 无损数据压缩算法',
-		'/coursedoc/多媒体/第六章 数字图像基础','/coursedoc/多媒体/第八章 数字视频基础',
+		'/coursedoc/多媒体/第六章 数字图像基础', '/coursedoc/多媒体/第八章 数字视频基础',
+		'/coursedoc/多媒体/第十章 数字视频编码原理与标准', '/coursedoc/多媒体/第十一章 网络多媒体基础',
 	],
-    '/': ['/', '/introduction'],
+    '/': ['/', '/introduction','/newcontent'],
 }

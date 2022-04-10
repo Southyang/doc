@@ -7,6 +7,7 @@ module.exports = [
 	    { text: 'CSAPP', link: '/learningdoc/CSAPP/' },
 		{ text: 'TS', link: '/learningdoc/TS/' },
 		{ text: 'Vue', link: '/learningdoc/Vue/' },
+		{ text: 'Algorithm', link: '/learningdoc/Algorithm/' },
 	  ]
 	},
 	{ 
