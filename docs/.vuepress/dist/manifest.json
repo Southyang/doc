@@ -8,12 +8,12 @@
     "description": "Southyang的文档库",
     "icons": [
 	  {
-        "src": "logo.png",
+        "src": "./icons/logolittle.png",
         "sizes": "52x52",
         "type": "image/png"
       },
 	  {
-         "src": "logo.png",
+         "src": "./icons/logobig.png",
          "sizes": "288x288",
          "type": "image/png"
       }

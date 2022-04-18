@@ -1,7 +1,7 @@
 ---
 title: README
 date: 2022-04-10 22:22:08
-permalink: /pages/89c27b/
+permalink: /pages/f87d4f/
 ---
 ### 关于刷题顺序
 

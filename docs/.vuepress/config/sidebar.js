@@ -20,6 +20,7 @@ module.exports = {
 		'/learningdoc/Algorithm/STL总结',
 		'/learningdoc/Algorithm/算法模板总结',
 		'/learningdoc/Algorithm/Array', 
+		'/learningdoc/Algorithm/Backtracking', 
     ],
 	'/developmentdoc/Configure/': [
         '/developmentdoc/Configure/', 

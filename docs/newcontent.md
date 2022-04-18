@@ -1,7 +1,8 @@
-### 本次更新：
+### 本次更新
 
-- 新增Algorithm栏目（我的刷题之路）
-  - stl总结
+- 修改Algorithm
   - 基础算法模板总结
-  - 数组相关题
-- 多媒体两章新内容
+- 修改Configure
+  - parallel computed 增加了OpenMP的命令
+- 新增Algorithm
+  - 回溯算法题目 backtracking
