@@ -8,6 +8,7 @@ module.exports = [
 		{ text: 'TS', link: '/learningdoc/TS/' },
 		{ text: 'Vue', link: '/learningdoc/Vue/' },
 		{ text: 'Algorithm', link: '/learningdoc/Algorithm/' },
+		{ text: 'Golang', link: '/learningdoc/Golang/' },
 	  ]
 	},
 	{ 
@@ -27,5 +28,5 @@ module.exports = [
 	  ]
 	},
 	{ text: '我的博客', link: 'https://southyang.cn/' },
-    { text: 'GitHub', link: 'https://github.com/Southyang/doc' }
+    { text: 'GitHub', link: 'https://github.com/Southyang' }
 ]

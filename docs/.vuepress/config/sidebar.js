@@ -21,6 +21,10 @@ module.exports = {
 		'/learningdoc/Algorithm/算法模板总结',
 		'/learningdoc/Algorithm/Array', 
 		'/learningdoc/Algorithm/Backtracking', 
+		'/learningdoc/Algorithm/Two Pointers', 
+    ],
+	'/learningdoc/Golang/': [
+        '/learningdoc/Golang/', 
     ],
 	'/developmentdoc/Configure/': [
         '/developmentdoc/Configure/', 
