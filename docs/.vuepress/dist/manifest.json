@@ -2,18 +2,17 @@
     "name": "Southyang的文档库",
     "short_name": "文档库",
     "display": "standalone",
-    "background_color": "#fff",
+    "background_color": "skyblue",
     "start_url": "/",
-    "scope": ".",
     "description": "Southyang的文档库",
     "icons": [
 	  {
-        "src": "./icons/logolittle.png",
+        "src": "logo52.png",
         "sizes": "52x52",
         "type": "image/png"
       },
 	  {
-         "src": "./icons/logobig.png",
+         "src": "logo288.png",
          "sizes": "288x288",
          "type": "image/png"
       }
