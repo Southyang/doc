@@ -15,7 +15,7 @@ module.exports = [
 	  text: '开发文档',
 	  ariaLabel: 'developmentdoc',
 	  items: [
-	    { text: 'Configure', link: '/developmentdoc/Configure/' },
+	    { text: 'Configuration & Directives', link: '/developmentdoc/Configuration & Directives/' },
 		{ text: 'Debug', link: '/developmentdoc/Debug/' },
 	  ]
 	},

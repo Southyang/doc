@@ -17,20 +17,22 @@ module.exports = {
     ],
 	'/learningdoc/Algorithm/': [
         '/learningdoc/Algorithm/', 
-		'/learningdoc/Algorithm/STL总结',
-		'/learningdoc/Algorithm/算法模板总结',
+		'/learningdoc/Algorithm/STL Summary',
+		'/learningdoc/Algorithm/Algorithm Template',
 		'/learningdoc/Algorithm/Array', 
 		'/learningdoc/Algorithm/Backtracking', 
 		'/learningdoc/Algorithm/Two Pointers', 
+		'/learningdoc/Algorithm/Sorting', 
     ],
 	'/learningdoc/Golang/': [
         '/learningdoc/Golang/', 
     ],
-	'/developmentdoc/Configure/': [
-        '/developmentdoc/Configure/', 
-		'/developmentdoc/Configure/Apache', 
-		'/developmentdoc/Configure/Nginx',
-		'/developmentdoc/Configure/Parallel computing'
+	'/developmentdoc/Configuration & Directives/': [
+        '/developmentdoc/Configuration & Directives/', 
+		'/developmentdoc/Configuration & Directives/Apache', 
+		'/developmentdoc/Configuration & Directives/Nginx',
+		'/developmentdoc/Configuration & Directives/Parallel computing',
+		'/developmentdoc/Configuration & Directives/Common linux instructions'
     ],
 	'/developmentdoc/Debug/': [
         '/developmentdoc/Debug/', 
@@ -52,5 +54,5 @@ module.exports = {
 		'/coursedoc/多媒体/第六章 数字图像基础', '/coursedoc/多媒体/第八章 数字视频基础',
 		'/coursedoc/多媒体/第十章 数字视频编码原理与标准', '/coursedoc/多媒体/第十一章 网络多媒体基础',
 	],
-    '/': ['/', '/introduction','/newcontent'],
+    '/': ['/', '/introduction','/newcontent','/planning'],
 }

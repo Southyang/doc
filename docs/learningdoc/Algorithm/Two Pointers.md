@@ -331,7 +331,7 @@ public:
 
 **示例：**
 
-![接雨水 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/rainwatertrap.png)
+![接雨水 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/rainwatertrap.png)
 
 ```
 输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
@@ -484,7 +484,7 @@ public:
 
 **示例：**
 
-![分隔链表 图源LeetCode](https://assets.leetcode.com/uploads/2021/01/04/partition.jpg)
+![分隔链表 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/partition.jpg)
 
 ```
 输入：head = [1,4,3,2,5,2], x = 3
@@ -669,7 +669,7 @@ public:
 
 **示例：**
 
-![环形链表示例1 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist.png)
+![环形链表示例1 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist.png)
 
 ```
 输入：head = [3,2,0,-4], pos = 1
@@ -677,7 +677,7 @@ public:
 解释：链表中有一个环，其尾部连接到第二个节点。
 ```
 
-![环形链表示例2 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png)
+![环形链表示例2 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist_test2.png)
 
 ```
 输入：head = [1,2], pos = 0
@@ -685,7 +685,7 @@ public:
 解释：链表中有一个环，其尾部连接到第一个节点。
 ```
 
-![环形链表示例3 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png)
+![环形链表示例3 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist_test3.png)
 
 ```
 输入：head = [1], pos = -1
@@ -758,7 +758,7 @@ public:
 
 **示例：**
 
-![环形链表II示例1 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist.png)
+![环形链表II示例1 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist.png)
 
 ```
 输入：head = [3,2,0,-4], pos = 1
@@ -766,7 +766,7 @@ public:
 解释：链表中有一个环，其尾部连接到第二个节点。
 ```
 
-![环形链表II示例2 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png)
+![环形链表II示例2 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist_test2.png)
 
 ```
 输入：head = [1,2], pos = 0
@@ -774,7 +774,7 @@ public:
 解释：链表中有一个环，其尾部连接到第一个节点。
 ```
 
-![环形链表II示例3 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png)
+![环形链表II示例3 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/circularlinkedlist_test3.png)
 
 ```
 输入：head = [1], pos = -1

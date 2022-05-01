@@ -316,7 +316,7 @@ public:
 
 **示例：**
 
-![接雨水 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/22/rainwatertrap.png)
+![接雨水 图源LeetCode](https://store.southyang.cn/LeetCode/TwoPointer/rainwatertrap.png)
 
 ```
 输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
@@ -535,19 +535,19 @@ public:
 
 **示例：**
 
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/04/word2.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word2.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 输出：true
 ```
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/04/word-1.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word-1.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
 输出：true
 ```
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/10/15/word3.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word3.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
@@ -646,7 +646,7 @@ public:
 
 **示例：**
 
-![柱状图中最大的矩形 图源LeetCode](https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg)
+![柱状图中最大的矩形 图源LeetCode](https://store.southyang.cn/LeetCode/Array/test.jpg)
 
 ```
 输入：heights = [2,1,5,6,2,3]
@@ -654,7 +654,7 @@ public:
 解释：最大的矩形为图中红色区域，面积为 10
 ```
 
-![柱状图中最大的矩形 图源LeetCode](https://assets.leetcode.com/uploads/2021/01/04/histogram-1.jpg)
+![柱状图中最大的矩形 图源LeetCode](https://store.southyang.cn/LeetCode/Array/test-1.jpg)
 
 ```
 输入： heights = [2,4]

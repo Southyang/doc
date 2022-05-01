@@ -117,7 +117,7 @@ public:
 
 **示例：**
 
-![解数独 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2021/04/12/250px-sudoku-by-l2g-20050714svg.png)
+![解数独 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/250px-sudoku-by-l2g-20050714svg.png)
 
 ```
 输入：board = [["5","3",".",".","7",".",".",".","."],
@@ -141,7 +141,7 @@ public:
 解释：输入的数独如上图所示，唯一有效的解决方案如下所示：
 ```
 
-![解数独示例 图源LeetCode](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2021/04/12/250px-sudoku-by-l2g-20050714_solutionsvg.png)
+![解数独示例 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/250px-sudoku-by-l2g-20050714_solutionsvg.png)
 
 **提示：**
 
@@ -370,7 +370,7 @@ public:
 
 **示例：**
 
-![N皇后 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/13/queens.jpg)
+![N皇后 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/queens.jpg)
 
 ```
 输入：n = 4
@@ -452,7 +452,7 @@ public:
 
 **示例：**
 
-![N皇后 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/13/queens.jpg)
+![N皇后 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/queens.jpg)
 
 ```
 输入：n = 4
@@ -660,21 +660,21 @@ public:
 
 **示例：**
 
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/04/word2.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word2.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCCED"
 输出：true
 ```
 
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/04/word-1.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word-1.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "SEE"
 输出：true
 ```
 
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/10/15/word3.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/word3.jpg)
 
 ```
 输入：board = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], word = "ABCB"
@@ -1301,13 +1301,13 @@ public:
 
 **示例：**
 
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/07/search1.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/search1.jpg)
 
 ```
 输入：board = [["o","a","a","n"],["e","t","a","e"],["i","h","k","r"],["i","f","l","v"]], words = ["oath","pea","eat","rain"]
 输出：["eat","oath"]
 ```
-![单词搜索 图源LeetCode](https://assets.leetcode.com/uploads/2020/11/07/search2.jpg)
+![单词搜索 图源LeetCode](https://store.southyang.cn/LeetCode/Backtracking/search2.jpg)
 ```
 输入：board = [["a","b"],["c","d"]], words = ["abcb"]
 输出：[]
