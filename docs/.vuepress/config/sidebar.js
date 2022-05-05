@@ -23,6 +23,7 @@ module.exports = {
 		'/learningdoc/Algorithm/Backtracking', 
 		'/learningdoc/Algorithm/Two Pointers', 
 		'/learningdoc/Algorithm/Sorting', 
+		'/learningdoc/Algorithm/Binary Search', 
     ],
 	'/learningdoc/Golang/': [
         '/learningdoc/Golang/', 

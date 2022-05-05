@@ -1,8 +1,8 @@
 ### 五月规划
 
 - Algorithm
-  - Sorting （ing）
-  - Binary Search
+  - Sorting （ed）
+  - Binary Search （ing）
   - Bit Manipulation
   - Union Find
   - Sliding Window
