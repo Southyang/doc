@@ -2,8 +2,8 @@
 
 - Algorithm
   - Sorting （ed）
-  - Binary Search （ing）
-  - Bit Manipulation
+  - Binary Search （ed）
+  - Bit Manipulation（ing）
   - Union Find
   - Sliding Window
   - 捎带学点Dynamic Programming

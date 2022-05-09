@@ -28,5 +28,6 @@ module.exports = [
 	  ]
 	},
 	{ text: '我的博客', link: 'https://southyang.cn/' },
-    { text: 'GitHub', link: 'https://github.com/Southyang' }
+    { text: 'GitHub', link: 'https://github.com/Southyang/Southyang' },
+	{ text: '个人主页', link: 'https://me.southyang.cn/' },
 ]

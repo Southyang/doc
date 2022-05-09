@@ -24,6 +24,7 @@ module.exports = {
 		'/learningdoc/Algorithm/Two Pointers', 
 		'/learningdoc/Algorithm/Sorting', 
 		'/learningdoc/Algorithm/Binary Search', 
+		'/learningdoc/Algorithm/Bit Manipulation', 
     ],
 	'/learningdoc/Golang/': [
         '/learningdoc/Golang/', 
