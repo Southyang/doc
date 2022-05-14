@@ -626,36 +626,46 @@ int main()
 ### 2.9 Trie树
 
 ```cpp
-int son[N][26], cnt[N], idx;
-// 0号点既是根节点，又是空节点
-// son[][]存储树中每个节点的子节点
-// cnt[]存储以每个节点结尾的单词数量
-
-// 插入一个字符串
-void insert(char *str)
+class Trie
 {
-    int p = 0;
-    for (int i = 0; str[i]; i ++ )
-    {
-        int u = str[i] - 'a';
-        if (!son[p][u]) son[p][u] = ++ idx;
-        p = son[p][u];
-    }
-    cnt[p] ++ ;
-}
+private:
+    bool is_string=false;
+    Trie *next[26]={nullptr};
+public:
+    Trie(){}
 
-// 查询字符串出现的次数
-int query(char *str)
-{
-    int p = 0;
-    for (int i = 0; str[i]; i ++ )
+    void insert(const string& word)//插入单词
     {
-        int u = str[i] - 'a';
-        if (!son[p][u]) return 0;
-        p = son[p][u];
+        Trie *root=this;
+        for(const auto& w:word){
+            if(root->next[w-'a']==nullptr)root->next[w-'a']=new Trie();
+            root=root->next[w-'a'];
+        }
+        root->is_string=true;
     }
-    return cnt[p];
-}
+
+    bool search(const string& word)//查找单词
+    {
+        Trie* root=this;
+        for(const auto& w:word){
+            if(root->next[w-'a']==nullptr)return false;
+            root=root->next[w-'a'];
+        }
+        return root->is_string;
+    }
+
+    bool startsWith(string prefix)//查找前缀
+    {
+        Trie* root=this;
+        for(const auto& p:prefix){
+            if(root->next[p-'a']==nullptr)return false;
+            root=root->next[p-'a'];
+        }
+        return true;
+    }
+};
+
+// 链接：https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array/solution/ctriemo-ban-ti-song-ban-zi-by-xiaoneng-tegw/
 ```
 
 ### 2.10 并查集
@@ -681,26 +691,33 @@ int query(char *str)
 
 (2)维护size的并查集：
 
-    int p[N], size[N];
-    //p[]存储每个点的祖宗节点, size[]只有祖宗节点的有意义，表示祖宗节点所在集合中的点的数量
+    vector<int> p, size;
+    //p存储每个点的祖宗节点, size表示祖宗节点所在集合中的点的数量
 
-    // 返回x的祖宗节点
-    int find(int x)
+    int find(int x) // 返回x的祖宗节点
     {
         if (p[x] != x) p[x] = find(p[x]);
         return p[x];
     }
 
-    // 初始化，假定节点编号是1~n
-    for (int i = 1; i <= n; i ++ )
-    {
-        p[i] = i;
-        size[i] = 1;
+    void initUnion(int len){ // 初始化并查集
+       	p.resize(len);
+        size.resize(len);
+    	for (int i = 0; i <=len; i ++ )
+    	{
+    	    p[i] = i;
+    	    size[i] = 1;
+    	}
     }
 
-    // 合并a和b所在的两个集合：
-    size[find(b)] += size[find(a)];
-    p[find(a)] = find(b);
+    void merge(int a, int b){ // 合并a和b所在的两个集合：
+    	size[find(b)] += size[find(a)];
+   		p[find(a)] = find(b);
+    }
+
+	int getSize(int x){ // 返回该元素所在子区间的元素数量
+        return size[find(x)];
+    }
 
 
 (3)维护到祖宗节点距离的并查集：

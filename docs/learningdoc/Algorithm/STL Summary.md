@@ -55,18 +55,21 @@ STL另一个重要特性是它不是面向对象的。为了具有足够通用�
 
 - **用法：**
 
-|      成员方法 / 其他函数      |                            作用                            |
-| :---------------------------: | :--------------------------------------------------------: |
-| push_back(value) / pop_back() |          在末尾添加新元素value / 删除最后一个元素          |
-|        begin() / end()        | 返回迭代器，一般用来排序如：`sort(obj.begin(),obj.end());` |
-|            clear()            |                       清空该变长数组                       |
-|            at(pos)            |                     返回pos位置的元素                      |
-|            empty()            |                        判断是否为空                        |
-|            swap()             |            交换两个数组的值: `vec.swap(vec1);`             |
-|            size()             |                        返回数组长度                        |
-|       front() / back()        |             返回第一个元素 / 返回最后一个元素              |
-|       rbegin() / rend()       |                  反转后的begin() 和 end()                  |
-|            vec[i]             |                       返回第i个元素                        |
+|               成员方法 / 其他函数                |                            作用                            |
+| :----------------------------------------------: | :--------------------------------------------------------: |
+|          push_back(value) / pop_back()           |          在末尾添加新元素value / 删除最后一个元素          |
+|          emplace_back(value) (推荐使用)          |                   在末尾添加新元素value                    |
+|                 begin() / end()                  | 返回迭代器，一般用来排序如：`sort(obj.begin(),obj.end());` |
+|                     clear()                      |                       清空该变长数组                       |
+|                     at(pos)                      |                     返回pos位置的元素                      |
+|                     empty()                      |                        判断是否为空                        |
+|                      swap()                      |            交换两个数组的值: `vec.swap(vec1);`             |
+|                      size()                      |                        返回数组长度                        |
+|                 front() / back()                 |             返回第一个元素 / 返回最后一个元素              |
+|                rbegin() / rend()                 |                  反转后的begin() 和 end()                  |
+|                      vec[i]                      |                       返回第i个元素                        |
+|       insert(const_iterator pos, n, elem)        |        在迭代器 pos 指定的位置之前插入n个新元素elem        |
+| emplace (const_iterator pos, args...) (推荐使用) |       在迭代器 pos 指定的位置之前插入一个新元素elem        |
 
 ### 3.2 pair 结构体模板
 

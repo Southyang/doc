@@ -8,7 +8,7 @@ module.exports = [
 		{ text: 'TS', link: '/learningdoc/TS/' },
 		{ text: 'Vue', link: '/learningdoc/Vue/' },
 		{ text: 'Algorithm', link: '/learningdoc/Algorithm/' },
-		{ text: 'Golang', link: '/learningdoc/Golang/' },
+		{ text: 'Go', link: '/learningdoc/Go/' },
 	  ]
 	},
 	{ 

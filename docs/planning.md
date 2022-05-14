@@ -3,12 +3,12 @@
 - Algorithm
   - Sorting （ed）
   - Binary Search （ed）
-  - Bit Manipulation（ing）
-  - Union Find
+  - Bit Manipulation （ed）
+  - Union Find（ing）
   - Sliding Window
   - 捎带学点Dynamic Programming
-- Golang
-  - Golang基础内容 （ing）
+- Go
+  - Go基础内容 （ing）
   - Beego框架知识
 - Java
   - Springboot框架知识

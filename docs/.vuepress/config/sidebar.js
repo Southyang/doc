@@ -25,9 +25,13 @@ module.exports = {
 		'/learningdoc/Algorithm/Sorting', 
 		'/learningdoc/Algorithm/Binary Search', 
 		'/learningdoc/Algorithm/Bit Manipulation', 
+		'/learningdoc/Algorithm/Union Find', 
     ],
-	'/learningdoc/Golang/': [
-        '/learningdoc/Golang/', 
+	'/learningdoc/Go/': [
+        '/learningdoc/Go/',
+		'/learningdoc/Go/Go basics',
+		'/learningdoc/Go/Go Web basics',
+		'/learningdoc/Go/Go Web Advanced',
     ],
 	'/developmentdoc/Configuration & Directives/': [
         '/developmentdoc/Configuration & Directives/', 
