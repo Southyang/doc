@@ -26,6 +26,7 @@ module.exports = {
 		'/learningdoc/Algorithm/Binary Search', 
 		'/learningdoc/Algorithm/Bit Manipulation', 
 		'/learningdoc/Algorithm/Union Find', 
+		'/learningdoc/Algorithm/Sliding Window', 
     ],
 	'/learningdoc/Go/': [
         '/learningdoc/Go/',
@@ -33,18 +34,21 @@ module.exports = {
 		'/learningdoc/Go/Go Web basics',
 		'/learningdoc/Go/Go Web Advanced',
     ],
-	'/developmentdoc/Configuration & Directives/': [
-        '/developmentdoc/Configuration & Directives/', 
-		'/developmentdoc/Configuration & Directives/Apache', 
-		'/developmentdoc/Configuration & Directives/Nginx',
-		'/developmentdoc/Configuration & Directives/Parallel computing',
-		'/developmentdoc/Configuration & Directives/Common linux instructions'
+	'/developmentdoc/projectdoc/Configuration & Directives/': [
+        '/developmentdoc/projectdoc/Configuration & Directives/', 
+		'/developmentdoc/projectdoc/Configuration & Directives/Apache', 
+		'/developmentdoc/projectdoc/Configuration & Directives/Nginx',
+		'/developmentdoc/projectdoc/Configuration & Directives/Parallel computing',
+		'/developmentdoc/projectdoc/Configuration & Directives/Common linux instructions'
     ],
-	'/developmentdoc/Debug/': [
-        '/developmentdoc/Debug/', 
-		'/developmentdoc/Debug/springboot', 
-		'/developmentdoc/Debug/TypeScript', 
-		'/developmentdoc/Debug/vue', 
+	'/developmentdoc/projectdoc/Debug/': [
+        '/developmentdoc/projectdoc/Debug/', 
+		'/developmentdoc/projectdoc/Debug/springboot', 
+		'/developmentdoc/projectdoc/Debug/TypeScript', 
+		'/developmentdoc/projectdoc/Debug/vue', 
+    ],
+	'/developmentdoc/scientificdoc/Robot/': [
+        '/developmentdoc/scientificdoc/Robot/', 
     ],
 	'/coursedoc/毛概/': [
 	    '/coursedoc/毛概/',	

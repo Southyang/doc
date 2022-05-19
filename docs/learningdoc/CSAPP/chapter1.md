@@ -2,6 +2,11 @@
 title: 第一章 计算机系统漫游
 date: 2022-03-25 16:38:36
 permalink: /pages/10ef19/
+categories: 
+  - learningdoc
+  - CSAPP
+tags: 
+  - 
 ---
 # 第一章 计算机系统漫游
 

@@ -1,7 +1,12 @@
 ---
 title: Go basics
-date: 2022-05-14 21:38:57
-permalink: /pages/5d3520/
+date: 2022-05-19 17:24:09
+permalink: /pages/648d11/
+categories: 
+  - learningdoc
+  - Go
+tags: 
+  - 
 ---
 # Golang基础知识
 

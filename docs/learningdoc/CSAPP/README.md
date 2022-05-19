@@ -2,6 +2,11 @@
 title: 摘要
 date: 2022-03-25 16:41:01
 permalink: /pages/bb64ca/
+categories: 
+  - learningdoc
+  - CSAPP
+tags: 
+  - 
 ---
 ### 学习CSAPP的一些笔记
 

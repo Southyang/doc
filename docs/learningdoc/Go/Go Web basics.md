@@ -1,7 +1,12 @@
 ---
 title: Go Web basics
-date: 2022-05-14 21:38:57
-permalink: /pages/9afc5e/
+date: 2022-05-19 17:24:09
+permalink: /pages/16e015/
+categories: 
+  - learningdoc
+  - Go
+tags: 
+  - 
 ---
 # Go Web基础知识
 
@@ -416,6 +421,8 @@ func main() {
 
 - 进入Mysql官网，选择操作系统对应的安装包进行下载即可
 
+
+
 #### 4.1.2 MySQL入门
 
 MySQL是一个关系型数据库
@@ -460,6 +467,8 @@ SELECT 列名 FROM 表名 [查询条件]
 UPDATE 表名 SET 列名 = 新值 WHERE 更新条件
 DELETE FROM 表名 WHERE 删除条件
 ```
+
+
 
 #### 4.1.3 用Go访问MySQL
 
@@ -739,6 +748,8 @@ func main() {
 
 - [这个博客写的还不错](https://www.cnblogs.com/hunanzp/p/12304622.html)
 
+
+
 #### 4.2.2 Redis入门
 
 Redis是一个Key-Value型数据库，通常被称为数据结构服务器
@@ -819,6 +830,8 @@ zscore key member
 (6)查看某个评分范围内的值有多少
 zcount key min max
 ```
+
+
 
 #### 4.2.3 用Go访问Redis
 
@@ -1055,6 +1068,8 @@ func main() {
 
 - 进入MongoDB官网下载安装即可
 
+
+
 #### 4.3.2 MongoDB入门
 
 MongoDB是一种非关系型数据库，基于分布式文件存储，使用C++语言编写
@@ -1077,6 +1092,8 @@ MongoDB是一种非关系型数据库，基于分布式文件存储，使用C++�
 /* 文档去重 */
 ```
 
+
+
 #### 4.3.3 用Go访问MongoDB
 
 ```
@@ -1094,6 +1111,8 @@ ORM全称为Object-Relation Mapping，对象关系映射，其作用是在关系
 - O（对象模型）：实体对象，即在程序中根据数据库表结构建立的一个个实体(Entity)
 - R（关系型数据库的数据结构）：建立的数据库表
 - M（映射）：从R到O的映射，常用XML文件来表示映射关系
+
+
 
 #### 4.4.2 安装及使用
 
@@ -1277,6 +1296,8 @@ func main() {
 	transactionGorm()
 }
 ```
+
+
 
 #### 4.4.3 Go语言的ORM框架——Beego ORM
 

@@ -2,6 +2,11 @@
 title: 第二章：面向对象
 date: 2022-03-25 16:38:34
 permalink: /pages/975625/
+categories: 
+  - learningdoc
+  - TS
+tags: 
+  - 
 ---
 # 第二章：面向对象
 

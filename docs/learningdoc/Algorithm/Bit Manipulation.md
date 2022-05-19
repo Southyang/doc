@@ -2,6 +2,11 @@
 title: Bit Manipulation
 date: 2022-05-09 15:45:50
 permalink: /pages/2e730d/
+categories: 
+  - learningdoc
+  - Algorithm
+tags: 
+  - 
 ---
 # 位运算
 

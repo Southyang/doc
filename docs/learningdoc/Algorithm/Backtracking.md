@@ -2,6 +2,11 @@
 title: Backtracking
 date: 2022-04-18 20:11:48
 permalink: /pages/2e8fcb/
+categories: 
+  - learningdoc
+  - Algorithm
+tags: 
+  - 
 ---
 # 回溯
 

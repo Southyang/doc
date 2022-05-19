@@ -2,6 +2,11 @@
 title: 第二章 信息的表示和处理
 date: 2022-03-25 16:38:36
 permalink: /pages/9399aa/
+categories: 
+  - learningdoc
+  - CSAPP
+tags: 
+  - 
 ---
 # 第二章 信息的表示和处理
 

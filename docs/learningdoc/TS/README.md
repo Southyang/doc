@@ -2,6 +2,11 @@
 title: 摘要
 date: 2022-03-25 16:42:09
 permalink: /pages/c9021c/
+categories: 
+  - learningdoc
+  - TS
+tags: 
+  - 
 ---
 ### 紧跟时代学习TS
 - JS安全性问题一直存在

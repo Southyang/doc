@@ -2,6 +2,11 @@
 title: 用Vite搭建vue3项目
 date: 2022-04-03 21:39:18
 permalink: /pages/d00caf/
+categories: 
+  - learningdoc
+  - Vue
+tags: 
+  - 
 ---
 **写在前面**
 

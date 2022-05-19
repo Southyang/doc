@@ -2,6 +2,11 @@
 title: 摘要
 date: 2022-03-25 16:42:05
 permalink: /pages/11dd4c/
+categories: 
+  - learningdoc
+  - Vue
+tags: 
+  - 
 ---
 ### Vue学习
 - 想走全栈，前端框架还是得会一个嘛

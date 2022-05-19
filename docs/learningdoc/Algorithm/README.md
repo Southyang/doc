@@ -2,6 +2,11 @@
 title: README
 date: 2022-04-10 22:22:08
 permalink: /pages/f87d4f/
+categories: 
+  - learningdoc
+  - Algorithm
+tags: 
+  - 
 ---
 ### 关于刷题顺序
 

@@ -2,6 +2,11 @@
 title: vue2
 date: 2022-03-25 16:38:30
 permalink: /pages/7c82a0/
+categories: 
+  - learningdoc
+  - Vue
+tags: 
+  - 
 ---
 # 笔记
 

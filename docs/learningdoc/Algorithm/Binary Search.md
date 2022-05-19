@@ -2,6 +2,11 @@
 title: Binary Search
 date: 2022-05-05 21:12:27
 permalink: /pages/ef18b3/
+categories: 
+  - learningdoc
+  - Algorithm
+tags: 
+  - 
 ---
 # 二分查找
 

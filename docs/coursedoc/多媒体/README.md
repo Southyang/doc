@@ -2,6 +2,11 @@
 title: 摘要
 date: 2022-03-25 17:45:20
 permalink: /pages/7328cd/
+categories: 
+  - coursedoc
+  - 多媒体
+tags: 
+  - 
 ---
 
 ### 简介
