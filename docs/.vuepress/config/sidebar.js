@@ -27,6 +27,7 @@ module.exports = {
 		'/learningdoc/Algorithm/Bit Manipulation', 
 		'/learningdoc/Algorithm/Union Find', 
 		'/learningdoc/Algorithm/Sliding Window', 
+		'/learningdoc/Algorithm/Dynamic Programming', 
     ],
 	'/learningdoc/Go/': [
         '/learningdoc/Go/',

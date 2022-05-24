@@ -5,8 +5,8 @@
   - Binary Search （ed）
   - Bit Manipulation （ed）
   - Union Find （ed）
-  - Sliding Window（ing）
-  - 捎带学点Dynamic Programming
+  - Sliding Window（ed）
+  - 捎带学点Dynamic Programming（ing）
 - Go
   - Go基础内容 （ed）
   - Go项目开发（ing）

@@ -2,11 +2,6 @@
 title: STL总结
 date: 2022-04-10 22:22:08
 permalink: /pages/7c8eba/
-categories: 
-  - learningdoc
-  - Algorithm
-tags: 
-  - 
 ---
 # C++ STL总结
 
@@ -292,3 +287,96 @@ STL另一个重要特性是它不是面向对象的。为了具有足够通用�
 - [CSDN博主 HUST_Miao](https://blog.csdn.net/u010183728/article/details/81913729)
 
 - [C语言中文网](http://c.biancheng.net/stl/)
+
+
+
+## 5. Tip
+
+**做题时遇到的坑和一些技巧**
+
+### 5.1 迭代器并不是都可以进行加减
+
+迭代器实质上是一个指针，但是，并不是所有的容器的迭代器可以支持加减操作。
+
+- 能进行算术运算的迭代器只有**随机访问迭代器**，要求容器元素存储在**连续内存空间**内
+- 即**vector、string、deque**的迭代器是有加减法的
+- 而**map、set、multimap、multiset、list**的迭代器是没有加减法的。他们仅支持++itr、–itr这些操作
+
+
+
+### 5.2 it++与++it的区别
+
+在STL中的容器使用迭代器进行遍历时，可以有it++与++it的效果是相同的，遍历的次数也是相同的，但是在STL中效率却不同：
+
+- ++it（或–it）返回的是**引用**
+- it++（或it–）返回的是**临时对象**
+
+因为iterator是类模板，使用it++这种形式要返回一个无用的临时对象，而it++是函数重载，所以编译器无法对其进行优化，所以每遍历一个元素，你就创建并销毁了一个无用的临时对象
+
+
+
+### 5.3 迭代器的一些好用的函数
+
+#### 5.3.1 advance()函数
+
+将指定迭代器前移或后移 n 个位置的距离
+
+参数
+
+- 第一个参数为迭代器
+- 第二个参数为移动的距离
+
+```cpp
+//借助 advance() 函数将 iter 迭代器前进 2 个位置
+auto iter = mySTL.begin();
+advance(iter, 2);
+// 移动后的iter指向mySTL的第三个位置
+```
+
+
+
+#### 5.3.2 prev()函数
+
+获取一个距离指定迭代器 n 个元素的迭代器
+
+参数
+
+- 第一个参数为迭代器
+- 第二个参数为移动的距离
+
+```cpp
+//借助 prev() 函数将 iter 迭代器向左移动 2 个位置
+auto iter = mySTL.end();
+prev(iter, 2);
+// 移动后的iter指向mySTL的倒数第二个位置
+
+//借助 prev() 函数将 iter 迭代器向右移动 2 个位置
+auto iter = mySTL.begin();
+prev(iter, -2);
+// 移动后的iter指向mySTL的第三个位置
+```
+
+
+
+#### 5.3.3 next()函数
+
+获取一个距离指定迭代器 n 个元素的迭代器
+
+参数
+
+- 第一个参数为迭代器
+- 第二个参数为移动的距离
+
+```cpp
+//借助 next() 函数将 iter 迭代器向左移动 2 个位置
+auto iter = mySTL.end();
+prev(iter, -2);
+// 移动后的iter指向mySTL的倒数第二个位置
+
+//借助 next() 函数将 iter 迭代器向右移动 2 个位置
+auto iter = mySTL.begin();
+prev(iter, 2);
+// 移动后的iter指向mySTL的第三个位置
+```
+
+**可以看出，prev()和next()刚好相反**
