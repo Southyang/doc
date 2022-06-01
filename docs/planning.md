@@ -1,15 +1,22 @@
-### 五月规划
+---
+title: 六月规划
+---
 
 - Algorithm
-  - Sorting （ed）
-  - Binary Search （ed）
-  - Bit Manipulation （ed）
-  - Union Find （ed）
-  - Sliding Window（ed）
-  - 捎带学点Dynamic Programming（ing）
+  - Dynamic Programming（ed）
 - Go
-  - Go基础内容 （ed）
   - Go项目开发（ing）
   - Beego框架知识
 - Java
-  - Springboot框架知识
+  - Springboot框架知识（已经学完了，但没写文档，忙完这段就写文档）
+- 六级
+- 夏令营
+  - 中南（已填报，材料未提交）
+  - 北理
+  - 北航
+- CCF
+- 机器人比赛
+- 并行计算实验
+- 游戏与动画设计实验
+  - 人物建模
+  - 背包系统
