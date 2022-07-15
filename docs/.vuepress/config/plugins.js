@@ -1,16 +1,16 @@
-module.exports = [  
-	['@vuepress/pwa',
-	  {
-        serviceWorker: true,
-        updatePopup: {
-            message: "发现新内容可用",
-            buttonText: "刷新"
-        }
-      },
-	],
+module.exports = [
 	['demo-container'],
 	['vuepress-theme-vdoing'],
-	['vuepress-plugin-nuggets-style-copy', 
+	[
+      'vuepress-plugin-mathjax', // markdown数学公式
+      {
+        target: 'svg',
+        macros: {
+          '*': '\\times',
+        },
+      },
+    ],
+	/*['vuepress-plugin-nuggets-style-copy', 
 	  {
 		copyText: "复制代码",
 		tip: {
@@ -24,20 +24,5 @@ module.exports = [
         minLength: 30,
       },
 	],
-	['vuepress-plugin-nprogress'],
-	['vuepress-plugin-mathjax', // 无效
-      {
-        target: 'svg',
-		macros: {
-          '*': '\\times',
-		},
-	  }
-    ],
-	['cursor-effects', // 无效
-      {
-        size: 2, // size of the particle, default: 2
-        shape: ['star' | 'circle'], // shape of the particle, default: 'star'
-        zIndex: 999999999, // z-index property of the canvas, default: 999999999
-      },
-    ],
+	['vuepress-plugin-nprogress'],*/
 ]

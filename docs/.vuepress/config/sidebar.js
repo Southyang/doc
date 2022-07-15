@@ -48,8 +48,13 @@ module.exports = {
 		'/developmentdoc/projectdoc/Debug/TypeScript', 
 		'/developmentdoc/projectdoc/Debug/vue', 
     ],
-	'/developmentdoc/scientificdoc/Robot/': [
-        '/developmentdoc/scientificdoc/Robot/', 
+	'/developmentdoc/scientificdoc/Navigation_paper/': [
+        '/developmentdoc/scientificdoc/Navigation_paper/', 
+		'/developmentdoc/scientificdoc/Navigation_paper/Hierarchical Object-to-Zone Graph for Object Navigation', 
+    ],
+	'/developmentdoc/scientificdoc/ROS/': [
+        '/developmentdoc/scientificdoc/ROS/', 
+		'/developmentdoc/scientificdoc/ROS/ROS_base', 
     ],
 	'/coursedoc/毛概/': [
 	    '/coursedoc/毛概/',	

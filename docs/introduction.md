@@ -19,7 +19,8 @@ title: 文档目录概览
   - Debug （学习开发过程中的一些debug记录）
 
 - 科研文档（从无到有的科研学习经历）
-  - Robot（目前准备机器人入门啦）
+  - navigation_paper（智能导航论文翻译）
+  - ROS（ROS基础学习）
 
 
 

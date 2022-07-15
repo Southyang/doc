@@ -27,7 +27,8 @@ module.exports = [
 			text: '科研文档',
 			ariaLabel: 'scientificdoc',
 			items: [
-				{ text: 'Robot', link: '/developmentdoc/scientificdoc/Robot/' },
+				{ text: 'Navigation_paper', link: '/developmentdoc/scientificdoc/Navigation_paper/' },
+				{ text: 'ROS', link: '/developmentdoc/scientificdoc/ROS/' },
 			]
 		}
 	  ]
